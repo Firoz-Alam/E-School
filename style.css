@@ -1,18 +1,27 @@
+*{
+    font-family: poppins;
+}
+
 .container-contain{
-    position: absolute;
+   position: relative;
     width: 100%;
     height: 576px;
     left: 0px;
     top: 0px;
-    background-color: #31c531;
+    background-color: #F0FFF0;
 }
 
 .bg{
-    background-color: #31c531;
+    background-color: #F0FFF0;
 }
 .logo-img{
     width: 200px;
     height: 60px;
+}
+
+.img-ban{
+    width: 100%;
+    height: 100%;
 }
 
 .sign-btn{
@@ -20,4 +29,67 @@
     height: 45px;
     background: #21B573;
     border-radius: 33px;
+}
+.get-btn{
+    height: 43px;
+    width: 153px;
+    border-radius: 33px;
+    padding: 12px, 36px, 12px, 36px;
+    background: #21B573;
+    
+
+}
+.cont{
+    margin-top: 30px;
+}
+
+.cat-pic{
+    width: 65px;
+    height: 85px;
+    margin: 25px 0px 25px 35px;
+
+}
+.cat-col{
+    width: 280px;
+    height: 270px;
+    background: #F8FFFB;
+    border-radius: 10px;   
+    box-shadow: 2px 2px 5px lightgray;
+}
+.pad{
+    margin-right: 50px;
+    
+}
+
+.txt-sm-size{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 36px;
+}
+.txt-sm-size-2{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.bg-red{
+    color: #FD511A;
+    
+}
+.text-col{
+    color: #21B573;
+}
+.ban-text{
+    font-weight: 700;
+    font-family: poppins;
+    font-size: 48px;
+    line-height: 70px;
+
+}
+
+
+.txt-md-size{
+    font-size: 24px;
 }
