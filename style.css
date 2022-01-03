@@ -63,16 +63,19 @@
 
 .txt-sm-size{
     font-size: 16px;
-    font-family: poppins;
     font-weight: 400;
     line-height: 36px;
 }
 .txt-sm-size-2{
     font-size: 16px;
-    font-family: poppins;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
+}
+.txt-sm-size-3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .bg-red{
     color: #FD511A;
@@ -97,13 +100,15 @@
     font-weight: 500;
     line-height: 36px;
     letter-spacing: 0em;
-   
-
 }
+
 
 .cont2{
     margin-top: 120px;
     text-align: center;
+}
+.cont3{
+    margin-top: 80px;
 }
 .cont2 h2{
     font-weight: 700;
@@ -155,4 +160,9 @@
 .card-footer{
     border: none;
     background: #FFFFFF;
+}
+
+.man-pic{
+    width: 120px;
+    height: 120px;
 }
